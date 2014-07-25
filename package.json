@@ -1,0 +1,11 @@
+{
+  "name": "nodejs101",
+  "version": "0.0.0",
+  "description": "A Nodejs 101 CodeCamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
