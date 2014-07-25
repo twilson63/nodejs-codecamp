@@ -4,5 +4,5 @@
 git clone https://github.com/twilson63/nodejs-codecamp.git
 cd nodejs-codecamp
 npm install
-npm start
+./n
 ```
