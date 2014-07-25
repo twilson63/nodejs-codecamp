@@ -1,0 +1,18 @@
+{
+  "name": "lyn",
+  "version": "0.0.0",
+  "description": "",
+  "main": "1.js",
+  "scripts": {
+    "test": "tap *_test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bl": "^0.9.0",
+    "tap": "^0.4.12"
+  },
+  "devDependencies": {
+    "rewire": "^2.1.0"
+  }
+}

@@ -7,5 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bl": "^0.9.0",
+    "msee": "^0.1.1",
+    "request": "^2.39.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twilson63/nodejs-codecamp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twilson63/nodejs-codecamp/issues"
+  },
+  "homepage": "https://github.com/twilson63/nodejs-codecamp"
 }

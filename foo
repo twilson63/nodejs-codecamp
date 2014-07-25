@@ -1,0 +1,9 @@
+module.exports = {
+  foo: 'beep',
+  bar: 'boop'
+};
+
+
+
+exports.foo = 'beep';
+exports.bar = 'boop';
