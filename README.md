@@ -1,4 +1,4 @@
-# Code Camp NodeJS 101
+# NodeJS 101 - Walk through
 
 This repo is a set of ascii slides that guides us through learnimg nodejs. 
 
@@ -15,6 +15,7 @@ npm install
 * ./n [enter]  > advances pres forward
 * ./p [enter]  > advances pres backward
 * ./r [enter]  > reset to first slide
+* ./s [slide#] [enter] > open slide by number
 
 ## contribution
 

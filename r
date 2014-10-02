@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var fs = require('fs');
-var slideFile = './.slide';
+var slideFile = __dirname + '/.slide';
 var msee = require('msee');
 var exec = require('child_process').exec;
 
@@ -15,7 +15,7 @@ exec('clear', function(err, stdout) {
 
   var slide = fs.readFileSync(slideFile, 'utf-8');
   fs.writeFileSync(slideFile, '1');
-  var out = msee.parseFile(__dirname + '/' + slide + '.md');
+  var out = msee.parseFile(__dirname + '/slides/' + slide + '.md');
 });
 
 

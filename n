@@ -15,7 +15,7 @@ exec('clear', function(err, stdout) {
 
   var slide = fs.readFileSync(slideFile, 'utf-8');
   fs.writeFileSync(slideFile, (parseInt(slide, 10) + 1));
-  var out = msee.parseFile(__dirname + '/' + slide + '.md');
+  var out = msee.parseFile(__dirname + '/slides/' + slide + '.md');
   console.log(out);
 });
 

@@ -11,7 +11,7 @@ exec('clear', function(err, stdout) {
   
 
   var slide = process.argv[2];
-  var out = msee.parseFile(__dirname + '/' + slide + '.md');
+  var out = msee.parseFile(__dirname + '/slides/' + slide + '.md');
   console.log(out);
 });
 
