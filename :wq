@@ -1,8 +1,9 @@
 # Deploying Node Apps
 
-  * Pivotal
   * Nodejitsu
   * Heroku
+  * Pivotal
+
   * Your own server:
 
 ```
